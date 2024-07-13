@@ -1,0 +1,369 @@
+#container{
+    display: grid;
+    height: 95vh;
+    background-color: black;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto ;
+    gap: 10px;
+    padding: 10px;
+
+}
+#first{
+    display: grid;
+    background-color:gray;
+    padding: 10px;
+    gap: 4px;
+}
+.one{
+    background-color: orangered;
+    grid-row: 1/2;
+    grid-column: 1/2;
+
+}
+.two{
+    background-color: rgb(241, 145, 110);
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.three{
+    background-color: rgb(231, 220, 60);
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+.four{
+    background-color: rgb(11, 59, 11);
+}
+.five{
+    background-color: aquamarine;
+}
+.six{
+    background-color: aqua;
+}
+#secound{
+    display: grid;
+    background-color: gray;
+    padding: 10px;
+    gap: 4px;
+}
+.one1{
+    background-color: orangered;
+    grid-column:1/3;
+    grid-row:1/4
+}
+.two2{
+    background-color: rgb(248, 147, 53);
+    grid-column:3/4;
+    grid-row: 1/6;
+}
+.three3{
+    background-color: aquamarine;
+    grid-column: 1/2;
+    grid-row: 4/6;
+
+}
+.four4{
+    background-color: aqua;
+    grid-row: 4/6;
+    grid-column: 2/3;
+    
+}
+#third{
+    display: grid;
+    background-color: gray;
+    gap: 4px;
+    padding: 10px;
+
+}
+.box1{
+    background-color: rgb(248, 147, 53);
+    grid-row: 1/2;
+    grid-column: 1/4;
+}
+.box2{
+    background-color: green;
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.box3{
+    background-color: orangered;
+    grid-row: 2/3;
+    grid-column: 2/4;
+}
+.box4{
+    background-color: aqua;
+    grid-row: 3/4;
+    grid-column: 1/4;
+}
+#four{
+    display: grid;
+    background-color: gray;
+    padding: 10px;
+    gap: 4px;
+}
+.box5{
+    background-color: orangered;
+    grid-row: 1/2;
+    grid-column: 1/3;
+}
+.box6{
+    background-color: rgb(248, 147, 53);
+    grid-row: 1/2;
+    grid-column: 3/5;
+}
+.box7{
+    background-color: aquamarine;
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.box8{
+    background-color: green;
+    grid-row: 2/3;
+    grid-column: 2/5;
+}
+.box9{
+    background-color: aqua;
+    grid-row: 3/4;
+    grid-column: 1/5;
+}
+#five{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto auto;
+    background-color: gray;
+    padding: 10px;
+    gap: 4px;
+}
+.box10{
+    background-color: darkgreen;
+
+}
+.box11{
+    background-color: orangered;
+}
+.box12{
+    background-color:aquamarine;
+}
+.box13{
+    background-color: red;
+}
+.box14{
+    background-color: aqua;
+}
+.box15{
+    background-color: orangered;
+}
+.box16{
+    background-color: orangered;
+}
+.box17{
+    background-color: darkgreen;
+}
+.box18{
+    background-color: orangered;
+}
+.box19{
+    background-color: aqua;
+}
+.box20{
+    background-color: orangered;
+}
+.box21{
+    background-color: red;
+}
+.box22{
+    background-color: darkgreen;
+}
+.box23{
+    background-color: red;
+}
+.box24{
+    background-color: aqua;
+}
+.box25{
+    background-color: orangered;
+}
+.box26{
+    background-color: darkgreen;
+}
+.box27{
+    background-color: aqua;
+}
+#six{
+    background-color: gray;
+    display: grid;
+    padding: 10px;
+    gap: 4px;
+}
+.box28{
+    background-color: red;
+    grid-column: 1/3;
+}
+.box29{
+    background-color: darkgreen;
+    grid-column: 3/4;
+}
+.box30{
+    background-color: orangered;
+    grid-column: 4/5;
+}
+.box31{
+    background-color: orangered;
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.box32{
+    background-color: darkgreen;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.box33{
+    background-color: aqua;
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+.box34{
+    background-color: orangered;
+    grid-row: 3/5;
+    grid-column: 1/3;
+}
+.box35{
+    background-color: aquamarine;
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+.box36{
+    background-color: red;
+    grid-row: 3/4;
+    grid-column: 4/5;
+}
+.box37{
+    background-color: aqua;
+    grid-row: 4/5;
+    grid-column: 3/4;
+}
+.box38{
+    background-color: aquamarine;
+    grid-row: 5/6;
+    grid-column: 1/4;
+}
+.box39{
+    background-color: orangered;
+    grid-row: 5/6;
+    grid-column: 4/5;
+}
+#seven{
+    display: grid;
+    background-color: gray;
+    padding: 10px;
+    gap: 4px;
+}
+.box40{
+    background-color: orangered;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.box41{
+    background-color: aqua;
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+.box42{
+    background-color: red;
+    grid-row: 2/6;
+    grid-column: 1/3;
+}
+.box43{
+    background-color: aquamarine;
+    grid-row: 2/6;
+    grid-column: 3/5;
+}
+.box44{
+    background-color: rgb(66, 6, 122);
+    grid-row: 2/4;
+    grid-column: 3/5;
+    margin: 3px;
+    /* padding: 10px; */
+}
+.box45{
+    background-color: darkgreen;
+    grid-row: 4/6;
+    grid-column: 3/4;
+    margin: 10px;
+}
+.box46{
+    background-color: orangered;
+    grid-row: 4/6;
+    grid-column: 4/5;
+    margin: 10px;
+}
+#eight{
+    display: grid;
+    background-color: gray;
+    padding: 10px;
+    gap: 4px;
+}
+.box47{
+    background-color: red;
+    grid-column: 1/2;
+}
+.box48{
+    background-color: orangered;
+    grid-template-columns: 2/3;
+}
+.box49{
+    background-color: aqua;
+    grid-column: 3/4;
+}
+.box50{
+    background-color: darkgreen;
+    grid-column: 4/5;
+}
+.box51{
+    background-color: aqua;
+    grid-column: 5/6;
+}
+.box52{
+    background-color: orangered;
+    grid-column: 1/2;
+}
+.box53{
+    background-color: red;
+    grid-column: 2/3;
+}
+.box54{
+    background-color: orangered;
+    grid-column: 3/6;
+}
+.box55{
+    background-color: aqua;
+    grid-column: 1/6;
+}
+#nine{
+    display: grid;
+    background-color: gray;
+    padding: 10px;
+    gap: 4px;
+}
+.box56{
+    background-color: orangered;
+    grid-column: 1/4;
+}
+.box57{
+    background-color: darkgreen;
+    grid-row: 2/4;
+    grid-column: 1/2;
+}
+.box58{
+    background-color: aqua;
+    grid-row: 2/3;
+    grid-column: 2/4;
+}
+.box59{
+    background-color: red;
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+.box60{
+    background-color: orangered;
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
